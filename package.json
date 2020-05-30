@@ -1,0 +1,18 @@
+{
+  "name": "bulma-syssoft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/*.scss css/styles.css",
+    "css-build-prod": "node-sass --omit-source-map-url sass/*.scss css/styles.min.css --output-style compressed",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch",
+    "devserver": "npx live-server ."
+  },
+  "devDependencies": {
+    "bulma": "^0.8.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.1"
+  }
+}
