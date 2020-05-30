@@ -1,8 +1,8 @@
 {
-  "name": "bulma-syssoft",
+  "name": "syssoft-bulma",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "AGPL3",
   "scripts": {
     "css-build": "node-sass --omit-source-map-url sass/*.scss css/styles.css",
     "css-build-prod": "node-sass --omit-source-map-url sass/*.scss css/styles.min.css --output-style compressed",
