@@ -20,4 +20,4 @@ Run `npm run css-build-prod` to build the project. The build artifacts will be s
 
 ## License
 
-Code copyright 2020 syssoft. Code released under [the AGPL3 license](https://github.com/syssoft-in/syssoft-bulmadesign/blob/master/README.md).
+Code copyright 2020 syssoft. Code released under [the AGPL3 license](https://github.com/syssoft-in/syssoft-bulmadesign/blob/master/LICENSE).
